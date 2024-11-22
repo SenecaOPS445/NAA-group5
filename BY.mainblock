@@ -1,0 +1,18 @@
+
+def cpu():
+    print('here is cpu information')
+
+def memory():
+    print('here is the memory information')
+
+if __name__ == '__main__':
+    intro = user_input()
+    print(intro)
+
+
+    if intro == 'cpu':
+        cpu()
+
+    elif intro == 'memory':
+        memory()
+
