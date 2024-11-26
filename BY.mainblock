@@ -1,18 +1,32 @@
-
+def user_input():
+    print("Welcome to the system report tool!")
+    print("Please choose an option to display the information:")
+    print("1. CPU usage")
+    print("2. Disk usage")
+    choice = input("Enter the number of your choice: ").strip().lower()
+    return choice
 def cpu():
     print('here is cpu information')
 
-def memory():
+def disk():
     print('here is the memory information')
 
 if __name__ == '__main__':
-    intro = user_input()
-    print(intro)
+        
+    while True:
+        intro = user_input()
+        print(intro)
 
 
-    if intro == 'cpu':
-        cpu()
+        if intro == '1':
+            cpu()
+            break
 
-    elif intro == 'memory':
-        memory()
+        elif intro == '2':
+            disk()
+            break
+        else:
+            print("____________________________________")
+            print("Invalid Choice. ")
+            print("Please choose valid number according to what you want to see")
 
