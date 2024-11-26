@@ -1,30 +1,25 @@
-def user_input():
-    print("Welcome to the system report tool!")
-    print("Please choose an option to display the information:")
-    print("1. CPU usage")
-    print("2. Disk usage")
-    choice = input("Enter the number of your choice: ").strip().lower()
-    return choice
-def cpu():
-    print('here is cpu information')
+#!/usr/bin/env python3
 
-def disk():
-    print('here is the memory information')
 
 if __name__ == '__main__':
-        
+#Using while True to keep loop going untill proper input is inputted        
     while True:
         intro = user_input()
         print(intro)
-
+#using if statements for the possible options the user can input and use
 
         if intro == '1':
             cpu()
             break
 
         elif intro == '2':
-            disk()
+            check_disk_space()
             break
+
+        elif intro == '3':
+            memory()
+            break
+#if the input choice is invalid this error message will show up
         else:
             print("____________________________________")
             print("Invalid Choice. ")
