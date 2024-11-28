@@ -1,4 +1,15 @@
 #!/usr/bin/env python3
+#Author: Umar Manjra
+umanjra-patch-1
+def user_input():
+    print("Welcome to the system report tool!")
+    print("Please choose an option to display the information:")
+    print("1. CPU usage")
+    print("2. Disk usage")
+    print("3. Memory usage")  # Added memory option
+    choice = input("Enter the number of your choice: ").strip().lower()
+    return choice
+
 ajpatel44
 # Student ID: ajpatel44
 
@@ -45,5 +56,4 @@ if __name__ == '__main__':
             print("____________________________________")
             print("Invalid Choice. ")
             print("Please choose valid number according to what you want to see")
-
-main
+          
