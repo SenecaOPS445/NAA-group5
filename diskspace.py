@@ -16,5 +16,3 @@ def check_disk_space(path="/"):
     print(f"Used: {convert_to_gb(used):.2f} GB")
     print(f"Free: {convert_to_gb(free):.2f} GB")
 
-# Check disk space on root directory
-check_disk_space()
