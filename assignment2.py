@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #Author: Umar Manjra
-umanjra-patch-1
+#umanjra-patch-1
 def user_input():
     print("Welcome to the system report tool!")
     print("Please choose an option to display the information:")
