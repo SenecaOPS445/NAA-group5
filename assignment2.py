@@ -1,6 +1,27 @@
 #!/usr/bin/env python3
+ajpatel44
+# Student ID: ajpatel44
+
+import shutil
+
+def check_disk_space(path="/"):
+    # Get disk space details
+    total, used, free = shutil.disk_usage(path)
+
+    # Convert bytes to human-readable format
+    def convert_to_gb(size_in_bytes):
+        return size_in_bytes / (1024 ** 3)
+
+    print(f"Disk Space on {path}:")
+    print(f"Total: {convert_to_gb(total):.2f} GB")
+    print(f"Used: {convert_to_gb(used):.2f} GB")
+    print(f"Free: {convert_to_gb(free):.2f} GB")
+
+# Check disk space on root directory
+check_disk_space()
 
 
+#Author= Brandon Yeung
 if __name__ == '__main__':
 #Using while True to keep loop going untill proper input is inputted        
     while True:
@@ -25,3 +46,4 @@ if __name__ == '__main__':
             print("Invalid Choice. ")
             print("Please choose valid number according to what you want to see")
 
+main
