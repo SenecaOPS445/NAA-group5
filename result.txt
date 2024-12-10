@@ -1,0 +1,25 @@
+
+--------------------------------------------------
+group5
+--------------------------------------------------
+Python Version: 3.12.7 (main, Oct  1 2024, 11:15:50) [GCC 14.2.1 20240910]
+Ran on 2024-12-02 10:48:54.512162
+Git commit used: commit 75aec18fa704f721509a421c38a1dde2d597e284
+Merge: 3458f4a 43e7a90
+Author: jli638 <160988095+jli638@users.noreply.github.com>
+Date:   Thu Nov 28 10:35:38 2024 -0500
+
+    Merge pull request #9 from SenecaOPS445/BrandonOPS445-patch-4
+    
+    Update assignment2.py
+
+
+--------------------------------------------------
+Relevant, useful, shows ambition           2.0/  3
+Comments and Documentation                 2.0/  5
+Adequate commits with good messages        4.0/  5
+No redundant code, variable names          2.0/  2
+
+--------------------------------------------------
+Total: 10.0/15
+FEEDBACK:
